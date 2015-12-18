@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using static System.Math;
 
 namespace RoadMapDotNet.Controllers
 {
     public class HomeController : Controller
     {
+        public int Number { get; set; } = 1;
+
         public ActionResult Index()
         {
             return View();
@@ -15,7 +18,9 @@ namespace RoadMapDotNet.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            var sin = Sin(Number);
+
+            ViewBag.Message = $"{sin} Daniel's application description page.";
 
             return View();
         }
