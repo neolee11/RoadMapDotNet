@@ -20,7 +20,7 @@ namespace RoadMapDotNet.Controllers
         {
             var sin = Sin(Number);
 
-            ViewBag.Message = $"{sin} Daniel's application description page.";
+            ViewBag.Message = $"{sin} Daniel's application description page. Hello from HP";
 
             return View();
         }
