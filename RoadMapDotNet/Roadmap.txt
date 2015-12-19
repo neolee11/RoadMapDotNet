@@ -1,0 +1,9 @@
+﻿C# features 
+.NET Unit Testing
+MVC and extension points
+Async
+Reactive Programming
+IoC
+AutoMapper
+Design Patterns
+Micro services architecture
