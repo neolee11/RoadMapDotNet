@@ -15,5 +15,10 @@ namespace RoadMapDotNet.Code
         {
             return Num;
         }
+
+        public string UsingFormatedString(string name, int age)
+        {
+            return $"{name} is {age}";
+        }
     }
 }

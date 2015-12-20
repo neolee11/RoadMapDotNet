@@ -20,5 +20,13 @@ namespace RoadMapDotNet.Test.Code
             var result = sut.UsingAutoPropertyInitializer();
             Assert.Equal(result, 10);
         }
+
+        [Fact]
+        public void UsingFormattedStringShouldWork()
+        {
+            var sut = new CSharp6Features();
+            var result = sut.UsingFormatedString("Daniel", 30);
+            Assert.Equal(result, "Daniel is 30");
+        }
     }
 }
