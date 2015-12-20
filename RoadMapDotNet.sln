@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet", "RoadMapDotNet\RoadMapDotNet.csproj", "{5333BFF9-7093-4D2F-B248-BF4CC803A907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet.Test", "RoadMapDotNet.Test\RoadMapDotNet.Test.csproj", "{277D6B71-17A5-45A6-B607-AFF44D6A9777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5333BFF9-7093-4D2F-B248-BF4CC803A907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5333BFF9-7093-4D2F-B248-BF4CC803A907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5333BFF9-7093-4D2F-B248-BF4CC803A907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

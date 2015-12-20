@@ -11,3 +11,6 @@ Message Queue
 Reflection
 Entity Framework Code First
 Search
+Attribute programming
+Logging and instrucmentation
+Performance and metrics
