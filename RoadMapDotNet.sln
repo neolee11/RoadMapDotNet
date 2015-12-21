@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet", "RoadMapDot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet.Test", "RoadMapDotNet.Test\RoadMapDotNet.Test.csproj", "{277D6B71-17A5-45A6-B607-AFF44D6A9777}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA35153E-7CD9-401D-9031-C8C6764C15CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{277D6B71-17A5-45A6-B607-AFF44D6A9777} = {DA35153E-7CD9-401D-9031-C8C6764C15CE}
 	EndGlobalSection
 EndGlobal
