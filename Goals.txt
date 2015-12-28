@@ -1,0 +1,2 @@
+* Practice Testing
+	- xUnit.Net: install xUnit packages from Nuget, and install xUnit runner for VS or for ReSharper via extensions

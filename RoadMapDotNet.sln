@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet.Test", "RoadM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA35153E-7CD9-401D-9031-C8C6764C15CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet.Core", "RoadMapDotNet.Core\RoadMapDotNet.Core.csproj", "{44793E97-F790-403C-BA2F-304065A46C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadMapDotNet.Core.Tests", "RoadMapDotNet.Core.Tests\RoadMapDotNet.Core.Tests.csproj", "{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D56F4F3-58C2-4B87-9B53-980A1FF839BC}"
+	ProjectSection(SolutionItems) = preProject
+		Goals.txt = Goals.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +32,20 @@ Global
 		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{277D6B71-17A5-45A6-B607-AFF44D6A9777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44793E97-F790-403C-BA2F-304065A46C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44793E97-F790-403C-BA2F-304065A46C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44793E97-F790-403C-BA2F-304065A46C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44793E97-F790-403C-BA2F-304065A46C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{277D6B71-17A5-45A6-B607-AFF44D6A9777} = {DA35153E-7CD9-401D-9031-C8C6764C15CE}
+		{9D56F1AB-CD81-40D0-9CA1-C1419AA9B360} = {DA35153E-7CD9-401D-9031-C8C6764C15CE}
 	EndGlobalSection
 EndGlobal
