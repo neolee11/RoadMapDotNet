@@ -62,6 +62,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="DomainTests\RecipeTests.cs" />
     <Compile Include="ExampleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,6 +74,11 @@
       <Project>{44793e97-f790-403c-ba2f-304065a46c08}</Project>
       <Name>RoadMapDotNet.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApplicationTests\" />
+    <Folder Include="CommonTests\" />
+    <Folder Include="InfrastructureTests\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Recipe\Recipe.cs" />
+    <Compile Include="Domain\Recipe\RecipeItem.cs" />
+    <Compile Include="Domain\Recipe\RecipeStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\" />
     <Folder Include="Common\" />
-    <Folder Include="Domain\" />
     <Folder Include="Infrastructure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
