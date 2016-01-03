@@ -63,7 +63,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DomainTests\RecipeTests.cs" />
-    <Compile Include="ExampleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

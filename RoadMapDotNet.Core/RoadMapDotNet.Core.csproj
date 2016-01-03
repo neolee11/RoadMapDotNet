@@ -40,9 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Recipe\Recipe.cs" />
+    <Compile Include="Domain\Recipe\IRecipe.cs" />
     <Compile Include="Domain\Recipe\RecipeItem.cs" />
     <Compile Include="Domain\Recipe\RecipeStatus.cs" />
+    <Compile Include="Domain\Recipe\RecipleVisiblity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

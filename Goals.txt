@@ -6,7 +6,7 @@ Software Requirement
 * Front page shows previews of publicly traded recipes
 * Need to deposit, credit/debit money
 * Need to have notification system and email system in replace.
- 
+* Use UTC time 
 
 Practice Goals
 * TDD
@@ -20,4 +20,8 @@ Practice Goals
 * MVC
 
 
+Problems:s
+* My OOP design techniques.
 
+Lessons Learned:
+* fn + enter is like insert on windows
